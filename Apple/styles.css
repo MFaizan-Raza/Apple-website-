@@ -1,0 +1,462 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(200, 163, 163);
+    top: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 999;
+    font-size: 8px;
+    position: fixed;
+    padding-left: 100px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    padding-top: 10px;
+    right: 5px;
+    float: left;
+    list-style: none;
+    margin: 4px 20px;
+    font-size: 13px;
+}
+
+.navbar li a {
+    color: #2F4F4F;
+    text-decoration: none;
+    /* margin: ; */
+}
+
+.search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px
+}
+
+.search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+
+.Mac {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+    background-image: url('Mac.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+}
+
+.Mac h1 {
+    margin-top: 40px;
+}
+
+.Mac h2 {
+
+    font-size: 30px;
+}
+
+.Mac h1 {
+    font-size: 50px;
+}
+
+.Mac a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.iphone {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+    background-image: url('iphone.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.iphone h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.iphone h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.iphone a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.iphone1 {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    height: 600px;
+    background-image: url('iphone1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.iphone1 h2 {
+    font-size: 30px;
+}
+
+.iphone1 h1 {
+    font-size: 50px;
+}
+
+.iphone1 a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.walkingmac {
+    margin-top: 1em;
+    margin-right: 1em;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    display: inline-block;
+    height: 700px;
+    background-image: url('walkingmac.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.walkingmac h2 {
+    font-size: 30px;
+}
+
+.walkingmac h1 {
+    font-size: 50px;
+}
+
+.walkingmac a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.watch {
+    margin-top: 1em;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    display: inline-block;
+    height: 700px;
+    background-image: url('watch.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.watch h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.watch a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.container,
+.container1,
+.container2 {
+    display: flex;
+}
+
+.vision {
+    margin-top: 1em;
+    margin-right: 1em;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    display: inline-block;
+    height: 700px;
+    background-image: url('applevision.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.vision img {
+    margin-top: 500px;
+}
+
+.vision h3 {
+    font-size: 30px;
+}
+
+.vision a {
+    color: #1841be;
+    text-decoration: none;
+    font-size: 25px;
+    /* padding: 10px; */
+}
+
+.trade {
+    margin-top: 1em;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    display: inline-block;
+    height: 700px;
+    background-image: url('itrading.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.trade h3 {
+    font-size: 30px;
+}
+
+.trade a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.news {
+    margin-top: 1em;
+    margin-right: 1em;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    display: inline-block;
+    height: 700px;
+    background-image: url('new.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.news h3 {
+    font-size: 30px;
+}
+
+.news a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.card {
+    margin-top: 1em;
+    margin-right: 1em;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    display: inline-block;
+    height: 700px;
+    background-image: url('card.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+    z-index: 3;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.football {
+    margin-top: 1em;
+
+}
+
+
+.Appleinfo {
+    background-color: #dcdcdc;
+    font-size: 13px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.Appleinfo li {
+    list-style: none;
+    margin: 10px;
+}
+
+.Appleinfo li a {
+    color: black;
+}
+
+.li1 li {
+    right: 5px;
+    list-style: none;
+    margin: 4px 24px;
+    font-size: 13px;
+}
+
+.li1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.li1 li a:hover {
+    text-decoration: underline;
+}
+
+.containe1r {
+    width: 100%;
+}
+
+.shop {
+    width: 20%;
+    display: inline-block;
+}
+
+.bunch ,.bunch1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.b1,.b2,.b3,.b4,.b5 {
+    border-radius: 6px solid black;
+    display: flex;
+    height: 15%;
+    border: none;
+    border-radius: 4px;
+    margin: 20px 0px;
+    padding: 20px 20px;
+}
+
+.b1 a,.b2 a,.b3 a,.b4 a,.b5 a {
+    color: black;
+    text-decoration: none;
+}
+
+.b1 li,.b2 li,.b3 li,.b4 li,.b5 li {
+    list-style: none;
+
+}
+.b1 a:hover,.b2 a:hover,.b3 a:hover,.b4 a:hover,.b5 a:hover {
+    text-decoration: underline;
+}
+.t1,.t2,.t3,.t4,.t5 {
+    border-radius: 6px solid black;
+    display: flex;
+    height: 15%;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 20px 20px;
+}
+
+.t1 a,.t2 a,.t3 a,.t4 a,.t5 a {
+    color: black;
+    text-decoration: none;
+}
+
+.t1 li,.t2 li,.t3 li,.t4 li,.t5 li {
+    list-style: none;
+
+}
+.t1 a:hover,.t2 a:hover,.t3 a:hover,.t4 a:hover,.t5 a:hover {
+    text-decoration: underline;
+}
+.footer ul {
+    overflow: auto;
+}
+
+.footer li {
+    right: 5px;
+    float: left;
+    list-style: none;
+    margin: 4px 24px;
+    font-size: 13px;
+}
+
+.footer li a {
+    color: #2F4F4F;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
+
+.li1 {
+    display: flex;
+}
